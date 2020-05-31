@@ -1,0 +1,24 @@
+<h1>4. Реализовать базовый класс Фигура, который характеризуется набором точек (x,y). Создать классы наследники (Квадрат, Круг, Треугольник). Для классов наследников реализовать возможность вычисления площади и периметра, методы доступа к расчётным значениям</h1>
+<div id="result-block">
+    <div class="text">
+        <div>
+            <h2><b>Выберите фигуру</b></h2>
+            <h2><input name="figure" type="radio" id="square" checked> Квадрат</h2>
+            <h2><input name="figure" type="radio" id="circle"> Круг</h2>
+            <h2><input name="figure" type="radio" id = "triangle"> Треугольник</h2>
+            <pre><input id="x1" type="text" style="height:30px; width: 270px;" placeholder="Введите X1"></pre>
+            <pre><input id="y1" type="text" style="height:30px; width:270px" placeholder="Введите Y1"></pre>
+            <pre><input id="x2" type="text" style="height:30px; width:270px" placeholder="Введите X2"></pre>
+            <pre><input id="y2" type="text" style="height:30px; width:270px" placeholder="Введите Y2"></pre>
+            <pre><input type="button" style="height:30px; width:270px" value="Вывод периметра" onclick="outputPerimetr()"></pre>
+            <pre><input type="button" style="height:30px; width:270px" value="Вывод площади" onclick="outputSquare()"></pre>
+            <pre><input type="button" style="height:30px; width:270px" value="Вывод данных о выбранном объекте" onclick="outputSize()"></pre>
+        </div>
+        <div>
+            <pre id="resultSize"></pre>
+            <pre id="resultPerimetr"></pre>
+            <pre id="resultPlosad"></pre>
+        </div>
+    </div>
+    </div>
+<script>initSelectList();</script>
