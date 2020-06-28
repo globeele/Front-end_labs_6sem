@@ -1,9 +1,0 @@
-{
-  "fio": "Anastasiya Setko",
-  "faculty": "FAIS",
-  "speciality": "ITP-31",
-  "disciplines": {
-    "front-end": [{"name": "front-end_First", "date": "2020-01-11", "mark": -1}],
-    "sapr": [{"name": "sapr_Second", "date": "2020-10-11", "mark": -1}, {"name": "sapr_Third", "date": "2022-10-11", "mark": -1}]
-  }
-}
